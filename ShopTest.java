@@ -173,7 +173,7 @@ public class ShopTest {
     }
 
     @Test
-    void testRefurbishWithNoneOS() 
+    public void testRefurbishWithNoneOS() 
     {
         try 
         {
@@ -188,7 +188,7 @@ public class ShopTest {
     }
 
     @Test
-    void testRefurbishPriceByYear() 
+    public void testRefurbishPriceByYear() 
     {
         try 
         {
@@ -219,7 +219,7 @@ public class ShopTest {
     }
 
     @Test
-    void testRefurbishComputerNotInInventory() {
+    public void testRefurbishComputerNotInInventory() {
         try 
         {
             r.refurbish(c, "Windows 11");
