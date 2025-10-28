@@ -1,10 +1,10 @@
 ## Bug 1
-Brief description:  
-Failed unit test: 
+Brief description: The Computer Constructor does not correctly set computer memory. It always sets a memory of 16.
+Failed unit test: testComputerConstructor()
 
 ## Bug 2
-Brief description:  
-Failed unit test: 
+Brief description: The Computer Constructor does not correctly set computer price. It always sets a memory of 0.
+Failed unit test: testComputerConstructor()
 
 ## Bug 3
 Brief description:  

@@ -89,7 +89,7 @@ public class ShopTest {
             int initialSize = r.inventory.size();
             r.buy(c);
             assertEquals(initialSize + 1, r.inventory.size());
-            assertSame(c, r.inventory.get(r.inventory.size()));
+            assertSame(c, r.inventory.get(r.inventory.size()-1));
         }
         catch (Exception e) 
         {
