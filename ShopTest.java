@@ -22,14 +22,44 @@ public class ShopTest {
     }
     
     @Test
-    public void testComputerConstructor()
+    public void testComputerConstructor1()
     {
         assertEquals("Mac Pro (Late 2013)", c.description);
+    }
+
+    @Test
+    public void testComputerConstructor2()
+    {
         assertEquals("3.5 GHc 6-Core Intel Xeon E5", c.processorType);
+    }
+
+    @Test
+    public void testComputerConstructor3()
+    {
         assertEquals(1024, c.hardDriveCapacity);
+    }
+
+    @Test
+    public void testComputerConstructor4()
+    {
         assertEquals(64, c.memory);
+    }
+
+    @Test
+    public void testComputerConstructor5()
+    {
         assertEquals("macOS Big Sur", c.operatingSystem);
+    }
+
+    @Test
+    public void testComputerConstructor6()
+    {
         assertEquals(2013, c.yearMade);
+    }
+
+    @Test
+    public void testComputerConstructor7()
+    {
         assertEquals(1500, c.price);
     }
 
